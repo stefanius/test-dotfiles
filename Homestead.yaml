@@ -1,0 +1,18 @@
+---
+box: laravel/homestead
+ip: "192.168.200.200"
+memory: 4048
+cpus: 1
+hostname: test-dotfiles
+name: test-dotfiles
+provider: virtualbox
+
+authorize: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+
+folders:
+    - map: "."
+      to: "/home/vagrant/test-dotfiles"
+

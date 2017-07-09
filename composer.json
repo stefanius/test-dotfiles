@@ -1,0 +1,16 @@
+{
+    "name": "stefanius/test-dotfiles",
+    "description": "Just a box to test my dotfiles",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=7.0",
+        "ext-zip": "*",
+        "ext-xml": "*",
+        "ext-gd": "*",
+        "laravel/homestead": "^4.0"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}

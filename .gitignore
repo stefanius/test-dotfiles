@@ -1,0 +1,6 @@
+# Composer
+/vendor
+composer.phar
+.vagrant
+/.idea
+.DS_Store
