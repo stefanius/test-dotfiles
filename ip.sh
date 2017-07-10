@@ -13,4 +13,6 @@
 #
 #echo ${stringarray[1]}
 
-hostname -I | awk '{print $1}'
+#hostname -I | awk '{print $1}'
+
+free | awk '/Mem/{ print("used: %.2f%"), $3/$2*100 }'
